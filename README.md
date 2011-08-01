@@ -17,6 +17,7 @@ A very simple caching system using Redis. The primary use case is to see if data
 ## Configure the server:
 
 Redis-to-go:
+
 ```javascript
 var redisUrl = url.parse('redis://db:key@server.redistogo.com:port/'), // Replace with real URL
 		redisAuth = redisUrl.auth.split(':'),
@@ -24,6 +25,7 @@ var redisUrl = url.parse('redis://db:key@server.redistogo.com:port/'), // Replac
 ```
 
 Any Redis Server:
+
 ```javascript
 var	config = {
 		port : 0000,
