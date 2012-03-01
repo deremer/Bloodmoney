@@ -3,17 +3,19 @@
   "name": "bloodmoney",
   "description": "A simple cache banking system using redis",
   "keywords": ["redis","cache","bank","data","expire"],
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
     "type": "git",
     "url": "git://github.com/deremer/Bloodmoney.git"
   },
   "main": "index.js",
   "engines": {
-    "node": ">=0.4.0 <0.5.0"
+    "node": ">=0.4.0 <0.6.0"
   },
   "dependencies": {
-  	"redis": "0.6.x"
+  	"redis": "0.7.x"
   },
-  "devDependencies": {}
+  "devDependencies": {
+      "async": "0.1.x"
+  }
 }

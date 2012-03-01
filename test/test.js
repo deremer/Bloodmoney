@@ -10,9 +10,9 @@ var redisUrl = url.parse('redis://db:key@server.redistogo.com:port/'), // Replac
 
 /* Alternate REDIS Setup Method
 var	config = {
-		port : 0000,
-		host : 'server.redistogo.com',
-		pass : 'yourcrazylookingkey'
+		port : 6379,
+		host : 'localhost',
+		pass : ''
 };
 */
 
