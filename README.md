@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/deremer/Bloodmoney.png)](http://travis-ci.org/deremer/Bloodmoney)
 Bloodmoney
 ============
 
